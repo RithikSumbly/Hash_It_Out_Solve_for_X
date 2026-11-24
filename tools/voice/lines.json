@@ -1,0 +1,440 @@
+{
+  "reference": "reference.flac",
+  "settings": {
+    "exaggeration": 0.5,
+    "cfg_weight": 0.5,
+    "temperature": 0.8,
+    "takes": 3,
+    "seed": 1000,
+    "pause": 0.45,
+    "pace": 5.6
+  },
+  "lines": {
+    "c01": "Hello. I'm the Red Queen. I guard a vault on Ethereum. People try to take money from it all day long, and every few minutes, I rewrite the rules I use to stop them. Let me show you how it works.",
+    "c02": "Here's the problem. More and more machines have wallets now, and the rules that protect them change only when someone edits them, out of sight. Attackers keep changing. So I change too, in the open.",
+    "c03": "Anyone can ask me for money. Before I answer, I check eight things: how big the payment is compared with everything I hold, how new the person receiving it is, how quickly the requests are coming in, how long it's been since the last one, who's asking, whether it came through a contract, whether it's going to one, and how much has already left this round. Each of those gets a weight from my genome, thirty-two numbers stored on the chain.",
+    "c04a": "Now watch. Someone has just asked me for forty percent of the vault, all at once. The request is signed, and it's on its way into the next block.",
+    "c04w": "It's in the chain's hands now. Give it a moment.",
+    "c04f": "The chain is quiet right now, so here's one I turned away a little earlier.",
+    "c04r": "Here it is. First, I measure it. Then I weigh each measurement against my genes, and I look for the patterns I've learned to be wary of, like a large payment while money is already flowing out. Add it all up, and it's well over my limit. Refused. Nothing left the vault, and that refusal stays on the chain for good.",
+    "c04p": "Here it is. First, I measure it. Then I weigh each measurement against my genes, and I look for the patterns I've learned to be wary of. Add it all up, and it comes in under my limit, so this one goes through. I'll remember it, though. My next generation is bred from attacks like this.",
+    "c05": "But I'm not the only rule. Up to sixteen others sit in the background and judge every payment as well. They don't move any money. They just keep score.",
+    "c06": "Every few minutes, the contract grades all of us. How much would each of us have saved from attackers, minus twice every honest payment we'd have refused? The best four survive. The rest are eliminated, and their stakes go to the winners.",
+    "c07": "Then the survivors breed. Each gene comes from one parent or the other, a couple of them mutate at random, and only a clear winner takes the crown. Even my shape changes to match my genes.",
+    "c08": "The attackers evolve too. Their plans are genomes as well, bred from whatever worked last time. As the old line goes, it takes all the running you can do to keep in the same place. That's the race we're in.",
+    "c09": "None of this runs on a server. There's no oracle and no one behind the curtain. Every rule, every refusal and every generation is right there on the chain.",
+    "c10": "That's how it works. Now it's your turn. Pick an attack, and see if you can get anything past me.",
+    "c04h": "Here it is. First, I measure it. Then I weigh each measurement against my genes, and I look for the patterns I've learned to be wary of. Add it all up, and it comes in under my limit, but close to it, so I hold it. It waits about a minute; the owner or a guardian may cancel it; then anyone can pay it out."
+  },
+  "direction": {
+    "c01": {
+      "note": "a warm, regal welcome, a slight smile on Hello; unhurried",
+      "exaggeration": 0.6,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "Hello. I'm the Red Queen.",
+          "exaggeration": 0.65,
+          "pause": 0.5
+        },
+        {
+          "text": "I guard a vault on Ethereum.",
+          "stress": [
+            "vault"
+          ],
+          "pause": 0.45
+        },
+        {
+          "text": "People try to take money from it all day long, and every few minutes, I rewrite the rules I use to stop them.",
+          "exaggeration": 0.55,
+          "pause": 0.5
+        },
+        {
+          "text": "Let me show you how it works."
+        }
+      ]
+    },
+    "c02": {
+      "note": "wry, a little conspiratorial; the third sentence clipped, the last quietly confident with a falling end",
+      "exaggeration": 0.6,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "Here's the problem.",
+          "pause": 0.4
+        },
+        {
+          "text": "More and more machines have wallets now, and the rules that protect them change only when someone edits them, out of sight.",
+          "exaggeration": 0.55,
+          "pause": 0.5
+        },
+        {
+          "text": "Attackers keep changing.",
+          "pause": 0.45,
+          "pace": 6.0
+        },
+        {
+          "text": "So I change too, in the open.",
+          "exaggeration": 0.45,
+          "end": "low",
+          "pace": 4.9
+        }
+      ]
+    },
+    "c03": {
+      "note": "brisk and crisp; the eight measurements are a spoken list: the non-final items keep a light continuation rise, only the last falls; a slight lift on genome",
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "Anyone can ask me for money.",
+          "pause": 0.4
+        },
+        {
+          "text": "Before I answer, I check eight things:",
+          "end": "cont",
+          "pause": 0.3
+        },
+        {
+          "text": "how big the payment is compared with everything I hold, how new the person receiving it is, how quickly the requests are coming in, how long it's been since the last one,",
+          "pace": 6.1,
+          "pause": 0.2
+        },
+        {
+          "text": "who's asking, whether it came through a contract, whether it's going to one, and how much has already left this round.",
+          "pace": 6.0,
+          "pause": 0.45
+        },
+        {
+          "text": "Each of those gets a weight from my genome, thirty-two numbers stored on the chain.",
+          "stress": [
+            "genome"
+          ]
+        }
+      ],
+      "pace": 5.9
+    },
+    "c04a": {
+      "note": "present-tense urgency, a touch quicker; Now watch low and firm",
+      "exaggeration": 0.65,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "Now watch.",
+          "exaggeration": 0.45,
+          "end": "low",
+          "pause": 0.45,
+          "pace": 9.0
+        },
+        {
+          "text": "Someone has just asked me for forty percent of the vault, all at once.",
+          "pause": 0.4
+        },
+        {
+          "text": "The request is signed, and it's on its way into the next block.",
+          "takes": 6
+        }
+      ],
+      "pace": 5.8
+    },
+    "c04w": {
+      "note": "calm reassurance",
+      "exaggeration": 0.4,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "It's in the chain's hands now.",
+          "pause": 0.45
+        },
+        {
+          "text": "Give it a moment."
+        }
+      ],
+      "pace": 4.5
+    },
+    "c04f": {
+      "note": "matter-of-fact",
+      "exaggeration": 0.45,
+      "cfg_weight": 0.5
+    },
+    "c04r": {
+      "note": "analytical, building through measure, weigh and patterns; tension rising on Add it all up; a clear pause, then Refused low, firm and final; the last sentence relaxed and satisfied",
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "Here it is.",
+          "pause": 0.4
+        },
+        {
+          "text": "First, I measure it.",
+          "stress": [
+            "measure"
+          ],
+          "pause": 0.35,
+          "exaggeration": 0.7,
+          "takes": 4
+        },
+        {
+          "text": "Then I weigh each measurement against my genes, and I look for the patterns I've learned to be wary of, like a large payment while money is already flowing out.",
+          "exaggeration": 0.55,
+          "stress": [
+            "weigh",
+            "patterns"
+          ],
+          "pause": 0.45
+        },
+        {
+          "text": "Add it all up, and it's well over my limit.",
+          "exaggeration": 0.75,
+          "pause": 0.8,
+          "pace": 5.6
+        },
+        {
+          "text": "Refused.",
+          "exaggeration": 0.55,
+          "end": "low",
+          "pause": 0.55,
+          "pace": 9.0
+        },
+        {
+          "text": "Nothing left the vault, and that refusal stays on the chain for good.",
+          "exaggeration": 0.45
+        }
+      ]
+    },
+    "c04p": {
+      "note": "the same build; so this one goes through wry and grudging; I'll remember it, though with a slight edge; the last sentence resolute",
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "Here it is.",
+          "pause": 0.4
+        },
+        {
+          "text": "First, I measure it.",
+          "stress": [
+            "measure"
+          ],
+          "pause": 0.35,
+          "exaggeration": 0.7,
+          "takes": 4
+        },
+        {
+          "text": "Then I weigh each measurement against my genes, and I look for the patterns I've learned to be wary of.",
+          "exaggeration": 0.55,
+          "stress": [
+            "weigh",
+            "patterns"
+          ],
+          "pause": 0.45
+        },
+        {
+          "text": "Add it all up, and it comes in under my limit, so this one goes through.",
+          "exaggeration": 0.6,
+          "pause": 0.5
+        },
+        {
+          "text": "I'll remember it, though.",
+          "exaggeration": 0.65,
+          "pause": 0.45
+        },
+        {
+          "text": "My next generation is bred from attacks like this.",
+          "exaggeration": 0.55
+        }
+      ]
+    },
+    "c05": {
+      "note": "hushed, almost confiding",
+      "exaggeration": 0.35,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "But I'm not the only rule.",
+          "pause": 0.45
+        },
+        {
+          "text": "Up to sixteen others sit in the background and judge every payment as well.",
+          "pause": 0.45
+        },
+        {
+          "text": "They don't move any money.",
+          "pause": 0.35
+        },
+        {
+          "text": "They just keep score."
+        }
+      ],
+      "pace": 5.2
+    },
+    "c06": {
+      "note": "judicial and measured; the question rises at its end; The best four survive firm; The rest are eliminated plain, not gleeful",
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "Every few minutes, the contract grades all of us.",
+          "pause": 0.45
+        },
+        {
+          "text": "How much would each of us have saved from attackers,",
+          "exaggeration": 0.55,
+          "pause": 0.15
+        },
+        {
+          "text": "minus twice every honest payment we'd have refused?",
+          "exaggeration": 0.6,
+          "end": "rise",
+          "takes": 4,
+          "pause": 0.55
+        },
+        {
+          "text": "The best four survive.",
+          "exaggeration": 0.55,
+          "stress": [
+            "survive"
+          ],
+          "pause": 0.45
+        },
+        {
+          "text": "The rest are eliminated, and their stakes go to the winners.",
+          "exaggeration": 0.4
+        }
+      ]
+    },
+    "c07": {
+      "note": "wonder and pride; takes the crown swells a little; the last sentence intimate",
+      "exaggeration": 0.65,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "Then the survivors breed.",
+          "pause": 0.45
+        },
+        {
+          "text": "Each gene comes from one parent or the other, a couple of them mutate at random, and only a clear winner takes the crown.",
+          "exaggeration": 0.7,
+          "stress": [
+            "crown"
+          ],
+          "pause": 0.5,
+          "takes": 4
+        },
+        {
+          "text": "Even my shape changes to match my genes.",
+          "exaggeration": 0.4
+        }
+      ]
+    },
+    "c08": {
+      "note": "grim determination; As the old line goes introduces the Carroll line, said as a quote, slower and more deliberate; That's the race we're in plain and resolute",
+      "exaggeration": 0.55,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "The attackers evolve too.",
+          "pause": 0.4
+        },
+        {
+          "text": "Their plans are genomes as well, bred from whatever worked last time.",
+          "pause": 0.5
+        },
+        {
+          "text": "As the old line goes,",
+          "pause": 0.25
+        },
+        {
+          "text": "it takes all the running you can do to keep in the same place.",
+          "exaggeration": 0.5,
+          "pause": 0.55,
+          "pace": 4.8
+        },
+        {
+          "text": "That's the race we're in.",
+          "exaggeration": 0.5
+        }
+      ]
+    },
+    "c09": {
+      "note": "plain and confident, a beat after the first sentence",
+      "exaggeration": 0.45,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "None of this runs on a server.",
+          "pause": 0.65
+        },
+        {
+          "text": "There's no oracle and no one behind the curtain.",
+          "pause": 0.45
+        },
+        {
+          "text": "Every rule, every refusal and every generation is right there on the chain."
+        }
+      ],
+      "pace": 5.8
+    },
+    "c10": {
+      "note": "friendly and inviting; a light challenge on see if you can get anything past me, not theatrical",
+      "exaggeration": 0.55,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "That's how it works.",
+          "pause": 0.45
+        },
+        {
+          "text": "Now it's your turn.",
+          "pause": 0.4
+        },
+        {
+          "text": "Pick an attack, and see if you can get anything past me.",
+          "exaggeration": 0.6
+        }
+      ]
+    },
+    "c04h": {
+      "note": "the same build as c04p and c04r; so I hold it: measured, deliberate; the last sentence plain and even, explaining",
+      "exaggeration": 0.5,
+      "cfg_weight": 0.5,
+      "pieces": [
+        {
+          "text": "Here it is.",
+          "pause": 0.4
+        },
+        {
+          "text": "First, I measure it.",
+          "stress": [
+            "measure"
+          ],
+          "pause": 0.35,
+          "exaggeration": 0.7,
+          "takes": 4
+        },
+        {
+          "text": "Then I weigh each measurement against my genes, and I look for the patterns I've learned to be wary of.",
+          "exaggeration": 0.55,
+          "stress": [
+            "weigh",
+            "patterns"
+          ],
+          "pause": 0.45
+        },
+        {
+          "text": "Add it all up, and it comes in under my limit, but close to it, so I hold it.",
+          "exaggeration": 0.6,
+          "stress": [
+            "hold"
+          ],
+          "pause": 0.5
+        },
+        {
+          "text": "It waits about a minute; the owner or a guardian may cancel it; then anyone can pay it out.",
+          "exaggeration": 0.45
+        }
+      ]
+    }
+  }
+}

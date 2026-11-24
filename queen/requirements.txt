@@ -1,0 +1,10 @@
+# Gradio comes from the Space's sdk_version (5.33.0: Qwen3-TTS pins transformers 4.57, which needs huggingface_hub < 1)
+spaces
+torch==2.8.0
+torchaudio==2.8.0
+qwen-tts==0.1.1
+web3==7.14.0
+kokoro-onnx==0.6.1
+soundfile>=0.12
+requests>=2.31
+numpy>=1.26

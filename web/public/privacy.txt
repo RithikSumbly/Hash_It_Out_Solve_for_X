@@ -1,0 +1,22 @@
+Red Queen: privacy and data notes
+
+This site is a hackathon project (HASH-IT-OUT 2026, BITS Pilani Dubai). It runs on Base Sepolia, a public test
+network. Everything on it uses test ETH, which has no value. Never send real money to any address shown here.
+
+Wallets
+- The site asks your wallet only to connect and to send ordinary transactions you approve to the project's
+  contracts. It never asks for approvals, permits or signatures over your tokens.
+- Everything you do on chain is public and permanent, like any blockchain transaction.
+
+Talking to the queen
+- What you type, or say when you hold to speak, is sent to the queen's server and to Google's Gemini to be
+  understood and answered. Google's terms for its free API allow prompts to be used to improve its products.
+- Her server keeps a short conversation memory and any recording in memory only, for the length of your visit,
+  and never writes them to disk. Nothing is saved on this site.
+- Her voice is synthetic.
+
+Test ETH for judges
+- From 24 November 2026, a wallet that connects with almost nothing may be sent a small amount of test ETH from the
+  queen's own test wallet, so it can try an attack. It has no value.
+
+Source: https://github.com/RithikSumbly/AGCOE_Solve_for_X

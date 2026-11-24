@@ -1,0 +1,28 @@
+{
+  "name": "red-queen",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Red Queen \u2014 a smart-contract vault whose firewall policy evolves on-chain under live attack.",
+  "workspaces": [
+    "contracts",
+    "sdk",
+    "relay",
+    "bots",
+    "web"
+  ],
+  "scripts": {
+    "compile": "npm -w contracts run compile",
+    "test": "npm -w contracts test",
+    "node": "npm -w contracts run node",
+    "deploy:local": "npm -w contracts run deploy:local",
+    "deploy:sepolia": "npm -w contracts run deploy:sepolia",
+    "deploy:base": "npm -w contracts run deploy:base",
+    "relay": "npm -w relay start",
+    "bots": "npm -w bots start",
+    "e2e": "npm -w bots run e2e",
+    "web": "npm -w web run dev",
+    "build:web": "npm -w web run build",
+    "local": "npm -w bots run local",
+    "web:local": "cd web && NEXT_PUBLIC_CHAIN_ID=31337 NEXT_PUBLIC_RPC_URL=http://127.0.0.1:8545 NEXT_PUBLIC_RELAY_URL=ws://127.0.0.1:8787 NEXT_PUBLIC_TOPUP_URL=http://127.0.0.1:8788 npx next dev -p 3000"
+  }
+}

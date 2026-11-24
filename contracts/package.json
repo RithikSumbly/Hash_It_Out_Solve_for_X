@@ -1,0 +1,27 @@
+{
+  "name": "@redqueen/contracts",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploy.ts --network sepolia",
+    "deploy:base": "hardhat run scripts/deploy.ts --network baseSepolia",
+    "export-abi": "hardhat run scripts/export-abi.ts",
+    "size": "hardhat size-contracts"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "6.1.2",
+    "hardhat": "2.29.2",
+    "@openzeppelin/contracts": "5.6.1",
+    "dotenv": "^16.4.5",
+    "typescript": "5.9.3",
+    "ts-node": "^10.9.2",
+    "@types/node": "^22.10.0",
+    "@types/mocha": "^10.0.10",
+    "@types/chai": "^4.3.20",
+    "chai": "^4.5.0"
+  }
+}

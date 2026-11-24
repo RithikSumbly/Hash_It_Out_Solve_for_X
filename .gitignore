@@ -1,0 +1,21 @@
+node_modules
+.env
+.env.local
+contracts/artifacts
+contracts/cache
+contracts/typechain-types
+contracts/coverage
+bots/.state
+web/.next
+web/out
+*.log
+.DS_Store
+web/tsconfig.tsbuildinfo
+
+# python caches
+__pycache__/
+*.pyc
+
+# the talking queen: Kokoro downloads its model here when run locally
+queen/models/
+queen/__pycache__/

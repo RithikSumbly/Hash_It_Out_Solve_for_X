@@ -1,0 +1,36 @@
+{
+  "name": "@redqueen/web",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@redqueen/sdk": "0.1.0",
+    "@react-three/fiber": "9.8.2",
+    "@tanstack/react-query": "5.108.1",
+    "d3-force": "3.0.1",
+    "framer-motion": "14.14.0",
+    "gsap": "3.15.1",
+    "lenis": "1.3.27",
+    "next": "15.5.29",
+    "react": "19.1.10",
+    "react-dom": "19.1.10",
+    "three": "0.187.0",
+    "viem": "2.58.1",
+    "wagmi": "2.19.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.5",
+    "@types/d3-force": "3.0.10",
+    "@types/node": "^22.10.0",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.187.0",
+    "tailwindcss": "4.3.5",
+    "typescript": "5.9.3"
+  }
+}

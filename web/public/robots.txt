@@ -1,0 +1,4 @@
+# Red Queen: a hackathon project (HASH-IT-OUT 2026) on Base Sepolia, a public test network.
+# Test ETH only; it has no value. Privacy and data notes: /privacy.txt  ·  Security reports: /.well-known/security.txt
+User-agent: *
+Allow: /

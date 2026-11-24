@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="18" viewBox="0 0 720 18">
+<defs><linearGradient id="l" x1="0" x2="1"><stop offset="0" stop-color="#9a9385" stop-opacity="0"/><stop offset="1" stop-color="#9a9385" stop-opacity="0.85"/></linearGradient>
+<linearGradient id="r" x1="0" x2="1"><stop offset="0" stop-color="#9a9385" stop-opacity="0.85"/><stop offset="1" stop-color="#9a9385" stop-opacity="0"/></linearGradient>
+<linearGradient id="gg" x1="0" x2="1"><stop offset="0" stop-color="#9fd4e0" stop-opacity="0"/><stop offset=".5" stop-color="#9fd4e0"/><stop offset="1" stop-color="#9fd4e0" stop-opacity="0"/></linearGradient></defs>
+<rect x="40" y="8.5" width="300" height="1" fill="url(#l)"/><rect x="380" y="8.5" width="300" height="1" fill="url(#r)"/><rect y="7.5" width="46" height="3" rx="1.5" fill="url(#gg)"><animate attributeName="x" values="327;17" dur="3.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;.25;1" dur="3.4s" repeatCount="indefinite"/></rect><rect y="7.5" width="46" height="3" rx="1.5" fill="url(#gg)"><animate attributeName="x" values="347;657" dur="3.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" keyTimes="0;.25;1" dur="3.4s" repeatCount="indefinite"/></rect>
+<rect x="354" y="3" width="12" height="12" transform="rotate(45 360 9)" fill="#050608" stroke="#9fd4e0" stroke-width="1.4"/>
+<rect x="357.5" y="6.5" width="5" height="5" transform="rotate(45 360 9)" fill="#9fd4e0"><animate attributeName="opacity" values="1;.35;1" dur="3.4s" repeatCount="indefinite"/></rect>
+</svg>

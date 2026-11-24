@@ -1,0 +1,45 @@
+Red Queen — credits
+===================
+
+Every recording below was processed (trimmed, sliced, filtered, normalised, pitched at playback)
+for this site by tools/sound/process.py. Attribution is required for the CC BY 4.0 works.
+Licences: CC0 1.0 https://creativecommons.org/publicdomain/zero/1.0/
+          CC BY 4.0 https://creativecommons.org/licenses/by/4.0/
+
+Attribution required (CC BY 4.0):
+  “room-tone empty church in village Bokhoven 357 PM 241220_096” by klankbeeld, CC BY 4.0, https://freesound.org/people/klankbeeld/sounds/788451/ (modified)
+  “Symphonic_Concert_Bass_Drum_Vel02.wav” by pjcohen, CC BY 4.0, https://freesound.org/people/pjcohen/sounds/410721/ (modified)
+  “humpback_whales_and_orcas_ambient_underwater_recording” by raiden04, CC BY 4.0, https://freesound.org/people/raiden04/sounds/797762/ (modified)
+
+Other sources:
+  “Chess piece sliding 2” by Alnotreally, CC0 1.0, https://freesound.org/people/Alnotreally/sounds/801350/
+  “ANI - Wine glass - Rubbing 1a” by ani_music, CC0 1.0, https://freesound.org/people/ani_music/sounds/198403/
+  “Drawing with Pencil (Slow & Continuous)” by AO-SoundPawz, CC0 1.0, https://freesound.org/people/AO-SoundPawz/sounds/444676/
+  “AAD WATER DRIPPING INTO WATER” by AwenAudio, CC0 1.0, https://freesound.org/people/AwenAudio/sounds/815419/
+  “Wine Glass Toast Clink” by BennettFilmTeacher, CC0 1.0, https://freesound.org/people/BennettFilmTeacher/sounds/518598/
+  “Mud Splat” by Breviceps, CC0 1.0, https://freesound.org/people/Breviceps/sounds/445109/
+  “Paint splash” by colorsCrimsonTears, CC0 1.0, https://freesound.org/people/colorsCrimsonTears/sounds/577966/
+  “bottle-glugs.wav” by isbeorn, CC0 1.0, https://freesound.org/people/isbeorn/sounds/553954/
+  “Gong Brilliant Paiste 32"” by JensZygar, CC0 1.0, https://freesound.org/people/JensZygar/sounds/486629/
+  “Wine glass tinkles” by jhumbucker, CC0 1.0, https://freesound.org/people/jhumbucker/sounds/193823/
+  “Antique fireplace clock bell one strike” by Kinoton, CC0 1.0, https://freesound.org/people/Kinoton/sounds/347139/
+  “Deep Whoosh #5” by Kinoton, CC0 1.0, https://freesound.org/people/Kinoton/sounds/558827/
+  “Gale In The Dunes” by Kinoton, CC0 1.0, https://freesound.org/people/Kinoton/sounds/393567/
+  “Stream Running Into Pond” by mhtaylor67, CC0 1.0, https://freesound.org/people/mhtaylor67/sounds/236981/
+  “Sliding Envelope.wav” by MTJohnson, CC0 1.0, https://freesound.org/people/MTJohnson/sounds/444431/
+  “Crystal Hum 1 (wav).wav” by necrodigits, CC0 1.0, https://freesound.org/people/necrodigits/sounds/35792/
+  “Humpback whale song” by NOAA (U.S. National Oceanic and Atmospheric Administration), Public domain (U.S. Government work), https://www.fisheries.noaa.gov/national/science-data/sounds-ocean-mammals
+  “Foley_Clothes_Jacket_Whoosh_Sequence_Stereo.wav” by Nox_Sound, CC0 1.0, https://freesound.org/people/Nox_Sound/sounds/495390/
+  “Ringing sound from crystal glass. Tune: G” by PappaBert, CC0 1.0, https://freesound.org/people/PappaBert/sounds/419147/
+  “Water, small stream” by peridactyloptrix, CC0 1.0, https://freesound.org/people/peridactyloptrix/sounds/197705/
+  “WindChime1.wav” by perrydolia, CC0 1.0, https://freesound.org/people/perrydolia/sounds/556410/
+  “singing bell hit 2.wav” by ryancacophony, CC0 1.0, https://freesound.org/people/ryancacophony/sounds/202017/
+  “chess pieces.wav” by simone_ds, CC0 1.0, https://freesound.org/people/simone_ds/sounds/366065/
+  “knock-wood-soft.aiff” by stereostereo, CC0 1.0, https://freesound.org/people/stereostereo/sounds/124539/
+
+Voice and type:
+  Narration in the demo: a synthetic voice made with Chatterbox by Resemble AI (MIT),
+    https://github.com/resemble-ai/chatterbox, cloned from the Kokoro-82M voice bf_emma by hexgrad (Apache-2.0),
+    https://huggingface.co/hexgrad/Kokoro-82M; the clips carry Resemble's Perth watermark (tools/voice)
+  Display face: Red Queen Glass, a modification of Bodoni Moda by The Bodoni Moda Project Authors (SIL Open Font License 1.1),
+    web/public/fonts/OFL.txt (tools/font)

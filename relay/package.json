@@ -1,0 +1,22 @@
+{
+  "name": "@redqueen/relay",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Streams Red Queen contract events to every screen in the room, with a 10-minute replay buffer.",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@redqueen/sdk": "0.1.0",
+    "viem": "2.58.1",
+    "ws": "8.23.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.13",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.20.0",
+    "typescript": "5.9.3"
+  }
+}

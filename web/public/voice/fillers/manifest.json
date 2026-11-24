@@ -1,0 +1,254 @@
+[
+  {
+    "id": "any-1",
+    "topic": "any",
+    "say": "Now then.",
+    "file": "any-1.mp3",
+    "dur": 0.85
+  },
+  {
+    "id": "any-2",
+    "topic": "any",
+    "say": "Let me look.",
+    "file": "any-2.mp3",
+    "dur": 1.025
+  },
+  {
+    "id": "any-3",
+    "topic": "any",
+    "say": "One moment.",
+    "file": "any-3.mp3",
+    "dur": 1.035
+  },
+  {
+    "id": "any-4",
+    "topic": "any",
+    "say": "Hmm. Let me see.",
+    "file": "any-4.mp3",
+    "dur": 1.045
+  },
+  {
+    "id": "any-5",
+    "topic": "any",
+    "say": "Right. Let me think.",
+    "file": "any-5.mp3",
+    "dur": 1.3
+  },
+  {
+    "id": "any-6",
+    "topic": "any",
+    "say": "Let me read the board.",
+    "file": "any-6.mp3",
+    "dur": 1.135
+  },
+  {
+    "id": "explain-1",
+    "topic": "explain",
+    "say": "Let me put it plainly.",
+    "file": "explain-1.mp3",
+    "dur": 1.325
+  },
+  {
+    "id": "explain-2",
+    "topic": "explain",
+    "say": "Where to start. Here.",
+    "file": "explain-2.mp3",
+    "dur": 2.015
+  },
+  {
+    "id": "explain-3",
+    "topic": "explain",
+    "say": "It's simpler than it sounds.",
+    "file": "explain-3.mp3",
+    "dur": 1.54
+  },
+  {
+    "id": "explain-4",
+    "topic": "explain",
+    "say": "Let me walk you through it.",
+    "file": "explain-4.mp3",
+    "dur": 1.49
+  },
+  {
+    "id": "vault-1",
+    "topic": "vault",
+    "say": "Let me count the vault.",
+    "file": "vault-1.mp3",
+    "dur": 1.535
+  },
+  {
+    "id": "vault-2",
+    "topic": "vault",
+    "say": "Let me look at the balance.",
+    "file": "vault-2.mp3",
+    "dur": 1.51
+  },
+  {
+    "id": "vault-3",
+    "topic": "vault",
+    "say": "The vault first. One moment.",
+    "file": "vault-3.mp3",
+    "dur": 1.87
+  },
+  {
+    "id": "record-1",
+    "topic": "record",
+    "say": "Let me look at the record.",
+    "file": "record-1.mp3",
+    "dur": 1.505
+  },
+  {
+    "id": "record-2",
+    "topic": "record",
+    "say": "Let me find that verdict.",
+    "file": "record-2.mp3",
+    "dur": 1.605
+  },
+  {
+    "id": "record-3",
+    "topic": "record",
+    "say": "Let me read the chain.",
+    "file": "record-3.mp3",
+    "dur": 1.26
+  },
+  {
+    "id": "record-4",
+    "topic": "record",
+    "say": "Let me check that transaction.",
+    "file": "record-4.mp3",
+    "dur": 1.75
+  },
+  {
+    "id": "lineage-1",
+    "topic": "lineage",
+    "say": "Let me look back through my lineage.",
+    "file": "lineage-1.mp3",
+    "dur": 1.89
+  },
+  {
+    "id": "lineage-2",
+    "topic": "lineage",
+    "say": "Let me read my genes.",
+    "file": "lineage-2.mp3",
+    "dur": 1.66
+  },
+  {
+    "id": "lineage-3",
+    "topic": "lineage",
+    "say": "Let me look at my family.",
+    "file": "lineage-3.mp3",
+    "dur": 1.44
+  },
+  {
+    "id": "attack-1",
+    "topic": "attack",
+    "say": "Watch.",
+    "file": "attack-1.mp3",
+    "dur": 0.745
+  },
+  {
+    "id": "attack-2",
+    "topic": "attack",
+    "say": "Let me ready one.",
+    "file": "attack-2.mp3",
+    "dur": 1.09
+  },
+  {
+    "id": "attack-3",
+    "topic": "attack",
+    "say": "Very well. Stand back.",
+    "file": "attack-3.mp3",
+    "dur": 1.605
+  },
+  {
+    "id": "policy-1",
+    "topic": "policy",
+    "say": "Let me draft one.",
+    "file": "policy-1.mp3",
+    "dur": 1.2
+  },
+  {
+    "id": "policy-2",
+    "topic": "policy",
+    "say": "A policy. Let me think how I'd write it.",
+    "file": "policy-2.mp3",
+    "dur": 2.99
+  },
+  {
+    "id": "policy-3",
+    "topic": "policy",
+    "say": "Let me weigh that.",
+    "file": "policy-3.mp3",
+    "dur": 1.24
+  },
+  {
+    "id": "go-1",
+    "topic": "go",
+    "say": "This way.",
+    "file": "go-1.mp3",
+    "dur": 0.74
+  },
+  {
+    "id": "go-2",
+    "topic": "go",
+    "say": "Come with me.",
+    "file": "go-2.mp3",
+    "dur": 0.82
+  },
+  {
+    "id": "go-3",
+    "topic": "go",
+    "say": "Let me show you.",
+    "file": "go-3.mp3",
+    "dur": 1.15
+  },
+  {
+    "id": "roles-1",
+    "topic": "roles",
+    "say": "Who may do what. Let me see.",
+    "file": "roles-1.mp3",
+    "dur": 2.57
+  },
+  {
+    "id": "roles-2",
+    "topic": "roles",
+    "say": "Let me check who's allowed.",
+    "file": "roles-2.mp3",
+    "dur": 1.595
+  },
+  {
+    "id": "trust-1",
+    "topic": "trust",
+    "say": "A fair question. Let me think.",
+    "file": "trust-1.mp3",
+    "dur": 1.835
+  },
+  {
+    "id": "trust-2",
+    "topic": "trust",
+    "say": "Let me be honest about that.",
+    "file": "trust-2.mp3",
+    "dur": 1.725
+  },
+  {
+    "id": "self-1",
+    "topic": "self",
+    "say": "Where to begin.",
+    "file": "self-1.mp3",
+    "dur": 0.985
+  },
+  {
+    "id": "self-2",
+    "topic": "self",
+    "say": "Hmm.",
+    "file": "self-2.mp3",
+    "dur": 0.575
+  },
+  {
+    "id": "self-3",
+    "topic": "self",
+    "say": "Me? Very well.",
+    "file": "self-3.mp3",
+    "dur": 1.02
+  }
+]

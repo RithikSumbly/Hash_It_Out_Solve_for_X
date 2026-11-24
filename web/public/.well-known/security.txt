@@ -1,0 +1,5 @@
+# Red Queen (HASH-IT-OUT 2026): a test-network project. Test ETH only.
+Contact: https://github.com/RithikSumbly/AGCOE_Solve_for_X/security/advisories/new
+Expires: 2027-11-30T00:00:00.000Z
+Preferred-Languages: en
+Policy: https://github.com/RithikSumbly/AGCOE_Solve_for_X

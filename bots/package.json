@@ -1,0 +1,26 @@
+{
+  "name": "@redqueen/bots",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Honest traffic, scripted attackers, the evolved-attacker runner, challengers, spectators, epoch closer, judge top-up and the end-to-end run.",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "fund": "tsx src/fund.ts",
+    "topup": "tsx src/topup.ts",
+    "demo": "tsx src/demo.ts",
+    "evolved": "tsx src/index.ts --only evolved",
+    "e2e": "tsx src/e2e.ts",
+    "typecheck": "tsc --noEmit",
+    "local": "tsx src/local.ts"
+  },
+  "dependencies": {
+    "@redqueen/sdk": "0.1.0",
+    "viem": "2.58.1",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.20.0",
+    "typescript": "5.9.3"
+  }
+}
